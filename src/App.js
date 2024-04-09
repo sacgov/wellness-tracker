@@ -7,8 +7,10 @@ import Main from "./components/layout/Main";
 import "antd/dist/antd.min.css";
 import "./assets/styles/main.css";
 import "./assets/styles/responsive.css";
+import dayjsSetup from "./dayjsSetup";
 
 function App() {
+  dayjsSetup();
   return (
     <div className="App">
       <Switch>
